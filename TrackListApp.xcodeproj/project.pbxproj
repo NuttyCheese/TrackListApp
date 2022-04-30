@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		893A54E9281D447F0017B86A /* TrackListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893A54E8281D447F0017B86A /* TrackListViewController.swift */; };
+		893A54EB281D45D70017B86A /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893A54EA281D45D70017B86A /* Track.swift */; };
+		893A54ED281D53DD0017B86A /* TrackDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893A54EC281D53DD0017B86A /* TrackDetailsViewController.swift */; };
 		89FB500A281D3D4500EA63F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FB5009281D3D4500EA63F6 /* AppDelegate.swift */; };
 		89FB500C281D3D4500EA63F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FB500B281D3D4500EA63F6 /* SceneDelegate.swift */; };
-		89FB500E281D3D4500EA63F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FB500D281D3D4500EA63F6 /* ViewController.swift */; };
 		89FB5011281D3D4500EA63F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89FB500F281D3D4500EA63F6 /* Main.storyboard */; };
 		89FB5013281D3D4600EA63F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89FB5012281D3D4600EA63F6 /* Assets.xcassets */; };
 		89FB5016281D3D4600EA63F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89FB5014281D3D4600EA63F6 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		893A54E8281D447F0017B86A /* TrackListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackListViewController.swift; sourceTree = "<group>"; };
+		893A54EA281D45D70017B86A /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		893A54EC281D53DD0017B86A /* TrackDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackDetailsViewController.swift; sourceTree = "<group>"; };
 		89FB5006281D3D4500EA63F6 /* TrackListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89FB5009281D3D4500EA63F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89FB500B281D3D4500EA63F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		89FB500D281D3D4500EA63F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		89FB5010281D3D4500EA63F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		89FB5012281D3D4600EA63F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89FB5015281D3D4600EA63F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,8 +62,10 @@
 			children = (
 				89FB5009281D3D4500EA63F6 /* AppDelegate.swift */,
 				89FB500B281D3D4500EA63F6 /* SceneDelegate.swift */,
-				89FB500D281D3D4500EA63F6 /* ViewController.swift */,
 				89FB500F281D3D4500EA63F6 /* Main.storyboard */,
+				893A54E8281D447F0017B86A /* TrackListViewController.swift */,
+				893A54EC281D53DD0017B86A /* TrackDetailsViewController.swift */,
+				893A54EA281D45D70017B86A /* Track.swift */,
 				89FB5012281D3D4600EA63F6 /* Assets.xcassets */,
 				89FB5014281D3D4600EA63F6 /* LaunchScreen.storyboard */,
 				89FB5017281D3D4600EA63F6 /* Info.plist */,
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89FB500E281D3D4500EA63F6 /* ViewController.swift in Sources */,
 				89FB500A281D3D4500EA63F6 /* AppDelegate.swift in Sources */,
 				89FB500C281D3D4500EA63F6 /* SceneDelegate.swift in Sources */,
+				893A54ED281D53DD0017B86A /* TrackDetailsViewController.swift in Sources */,
+				893A54E9281D447F0017B86A /* TrackListViewController.swift in Sources */,
+				893A54EB281D45D70017B86A /* Track.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
